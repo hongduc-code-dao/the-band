@@ -1,0 +1,126 @@
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-form input {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .footer-list {
+        font-size: 35px;
+    }
+
+    .footer-list a {
+        margin: 0 8px;
+    }
+
+    #footer p {
+        font-size: 24px;
+    }
+
+    .footer-link a {
+        padding: 12px 0;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 740px) {
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-ful {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        padding: 5px 35px;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+    }
+
+    #slider .text-content {
+        bottom: 10px;
+    }
+
+    
+    #slider .text-description {
+        margin-top: 0;
+    }
+
+    #content .content-section {
+        padding: 64px 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #content .about-text {
+        margin-bottom: 0;
+    }
+
+    #content .mobile-member {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
